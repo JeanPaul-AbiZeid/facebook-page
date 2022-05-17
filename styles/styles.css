@@ -73,6 +73,9 @@
       font-weight: bold;
       width: 364px;
   }
+  .btn-blue:hover {
+      background-color: #0e70f1;
+  }
 
   .btn-green {
       font-weight: bold;
@@ -80,3 +83,7 @@
       line-height: 30px;
       background-color: #42b72a;
   }
+
+.btn-green:hover {
+    background-color: #30b416;
+}
