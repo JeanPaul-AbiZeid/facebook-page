@@ -4,3 +4,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .log-in {
+      display: flex;
+      background-color: #f0f2f5;
+      align-items: center;
+  }
+
+  .log-in-content {
+      width: 50%;
+  }
+
+  .log-in-content img {
+      height: 106px;
+      width: 40%;
+  }
