@@ -42,7 +42,7 @@
     text-align: center;
     width: 396px;
     padding-bottom: 12px;
-    padding-top: 10px;
+    padding-top: 14px;
   }
 
   .form-container-content input {
@@ -86,4 +86,11 @@
 
 .btn-green:hover {
     background-color: #30b416;
+}
+
+.form-container-content a {
+    color: #1877f2;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
 }
