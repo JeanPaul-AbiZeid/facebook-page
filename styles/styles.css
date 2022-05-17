@@ -9,6 +9,8 @@
       display: flex;
       background-color: #f0f2f5;
       align-items: center;
+      padding-bottom: 200px;
+      padding-top: 200px;
   }
 
   .log-in-content {
@@ -19,3 +21,14 @@
       height: 106px;
       width: 40%;
   }
+
+  .log-in-content > h2 {
+      font-size: 28px;
+      line-height: 32px;
+      font-weight: lighter;
+      margin-right: 100px;
+      margin-left: 28px;
+      width: 500px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
