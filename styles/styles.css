@@ -57,10 +57,6 @@
       margin-bottom: 10px;
       border-radius: 5px;
       border: 1px solid #ccc;
-      transition: border;
-  }
-  .text:focus {
-      border: 1px solid #0e70f1;
   }
 
   .btn {
