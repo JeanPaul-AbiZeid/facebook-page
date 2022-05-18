@@ -6,7 +6,7 @@
   }
 
   /* log-in */
-  
+
   .log-in {
       display: flex;
       background-color: #f0f2f5;
@@ -207,3 +207,42 @@
     background-color: #30b416;
 }
 
+/*Media queries*/
+
+@media only screen and (max-width: 900px) {
+    .mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .log-in-content {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+    .log-in-content img {
+        justify-content: center;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .log-in-content > h2 {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0%;
+        width: 100%;
+    }
+    
+    .form-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        margin-top: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
